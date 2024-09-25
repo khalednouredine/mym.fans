@@ -1,0 +1,1449 @@
+<html>
+
+<head>
+    <style>
+        .style-0 {
+            cursor: auto;
+            font-size: 15px;
+            line-height: 24px;
+            box-sizing: border-box;
+            font-family: Poppins, sans-serif;
+            color: rgb(250, 250, 250);
+            background-color: rgb(2, 4, 8);
+            font-weight: 400;
+            text-size-adjust: 100%;
+            margin: 0px;
+            padding: 0px;
+            height: 736px;
+            overflow-x: hidden;
+        }
+
+        .style-1 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            appearance: none;
+            border-radius: 0px;
+            color: rgb(250, 250, 250);
+        }
+
+        .style-2 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            appearance: none;
+            border-radius: 0px;
+            color: rgb(250, 250, 250);
+        }
+
+        .style-3 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            appearance: none;
+            border-radius: 0px;
+            color: rgb(250, 250, 250);
+        }
+
+        .style-4 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            appearance: none;
+            border-radius: 0px;
+            color: rgb(250, 250, 250);
+        }
+
+        .style-5 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-6 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            display: none;
+            z-index: 70;
+            position: fixed;
+            inset: 0px;
+            max-width: 1232px;
+            max-height: 736px;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(2, 4, 8);
+        }
+
+        .style-7 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            width: 50px;
+            height: 50px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            user-select: none;
+        }
+
+        .style-8 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            width: 1em;
+            height: 50px;
+            background: rgba(0, 0, 0, 0) url('https://mym.fans/build/images/loading.f6406561.svg') no-repeat scroll 50% 50% / contain padding-box border-box;
+            animation: 1.2s linear 0s infinite normal none running loading;
+            font-size: 50px;
+        }
+
+        .style-9 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            display: none;
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            padding: 0px;
+            overflow: hidden;
+            clip: rect(0px, 0px, 0px, 0px);
+            white-space: nowrap;
+            border-width: 0px;
+            border: 0px none rgb(250, 250, 250);
+        }
+
+        .style-10 {
+            max-width: 940px;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            position: relative;
+            margin: 0px auto;
+            min-height: 100%;
+        }
+
+        .style-11 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-12 {
+            position: sticky;
+            left: auto;
+            right: auto;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            z-index: 15;
+            order: -1;
+            top: 0px;
+            display: flex;
+            max-width: 100%;
+            min-height: 40px;
+            max-height: 48px;
+            padding: 0px 12px;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(2, 4, 8);
+            border-bottom: 0.666667px solid rgb(42, 42, 45);
+        }
+
+        .style-13 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            position: relative;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            width: 32px;
+            flex-flow: row nowrap;
+            place-content: stretch center;
+        }
+
+        .style-14 {
+            font-size: 15px;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            text-decoration: none solid rgb(250, 250, 250);
+            cursor: pointer;
+            display: flex;
+            padding: 0px;
+            max-width: 100%;
+            font-weight: 500;
+            line-height: 24px;
+            vertical-align: middle;
+            align-items: center;
+            color: rgb(250, 250, 250);
+            border: 0px none rgb(250, 250, 250);
+            appearance: none;
+            transition: color 0.3s;
+        }
+
+        .style-15 {
+            font-size: 24px;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            display: block;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+
+        .style-16 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-17 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-18 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            margin: auto;
+            padding: 9px 0px 8px;
+            text-align: center;
+        }
+
+        .style-19 {
+            max-width: none;
+            font-size: 20px;
+            line-height: 30px;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-weight: 500;
+        }
+
+        .style-20 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            text-decoration: none solid rgb(250, 250, 250);
+            color: rgb(250, 250, 250);
+        }
+
+        .style-21 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            max-height: 16px;
+            pointer-events: none;
+            user-select: none;
+        }
+
+        .style-22 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            position: relative;
+            height: 0px;
+            display: flex;
+            align-items: center;
+            width: 32px;
+            flex-flow: row nowrap;
+            place-content: stretch center;
+        }
+
+        .style-23 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-24 {
+            padding: 16px 32px;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-25 {
+            padding: 35px 0px 54px;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            margin: 0px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            min-height: calc(100% - 40px);
+            max-width: 458px;
+        }
+
+        .style-26 {
+            margin-bottom: 41px;
+            font-size: 32px;
+            line-height: 48px;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            margin-top: 0px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .style-27 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            width: 100%;
+        }
+
+        .style-28 {
+            margin-bottom: 31px;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-29 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            position: relative;
+            min-width: 288px;
+            vertical-align: top;
+        }
+
+        .style-30 {
+            font-size: 15px;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            margin-bottom: 6px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .style-31 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            position: relative;
+            display: flex;
+        }
+
+        .style-32 {
+            padding-top: 7px;
+            padding-bottom: 8px;
+            background-color: rgb(56, 57, 59);
+            box-sizing: border-box;
+            font-family: Poppins, sans-serif;
+            padding-right: 26px;
+            max-width: 100%;
+            flex-basis: 100%;
+            margin: 0px;
+            font-size: 15px;
+            font-weight: 500;
+            color: rgb(250, 250, 250);
+            background: rgb(56, 57, 59) none repeat scroll 0% 0% / auto padding-box border-box;
+            border: 0.666667px solid rgb(42, 42, 45);
+            border-radius: 2px;
+            caret-color: rgb(250, 250, 250);
+            padding-left: 100px;
+            appearance: none;
+        }
+
+        .style-33 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            display: none;
+            margin-top: 8px;
+            width: 100%;
+            font-size: 11px;
+            line-height: 17px;
+            position: absolute;
+            height: 1px;
+            margin: 8px -1px -1px;
+            padding: 0px;
+            overflow: hidden;
+            clip: rect(0px, 0px, 0px, 0px);
+            white-space: nowrap;
+            border-width: 0px;
+            border: 0px none rgb(250, 250, 250);
+        }
+
+        .style-34 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-35 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            display: none;
+            margin-top: 8px;
+            width: 100%;
+            font-size: 11px;
+            line-height: 17px;
+            position: absolute;
+            height: 1px;
+            margin: 8px -1px -1px;
+            padding: 0px;
+            overflow: hidden;
+            clip: rect(0px, 0px, 0px, 0px);
+            white-space: nowrap;
+            border-width: 0px;
+            border: 0px none rgb(250, 250, 250);
+        }
+
+        .style-36 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-37 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            display: none;
+            color: rgb(253, 74, 96);
+            margin-top: 8px;
+            width: 100%;
+            font-size: 11px;
+            line-height: 17px;
+            position: absolute;
+            height: 1px;
+            margin: 8px -1px -1px;
+            padding: 0px;
+            overflow: hidden;
+            clip: rect(0px, 0px, 0px, 0px);
+            white-space: nowrap;
+            border-width: 0px;
+            border: 0px none rgb(253, 74, 96);
+        }
+
+        .style-38 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            display: none;
+            text-align: left;
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            padding: 0px;
+            overflow: hidden;
+            clip: rect(0px, 0px, 0px, 0px);
+            white-space: nowrap;
+            border-width: 0px;
+            border: 0px none rgb(250, 250, 250);
+        }
+
+        .style-39 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            color: rgb(153, 153, 153);
+        }
+
+        .style-40 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            margin: 0px;
+            padding-bottom: 8px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .style-41 {
+            margin-bottom: 31px;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-42 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            width: 100%;
+            position: relative;
+            min-width: 288px;
+            vertical-align: top;
+        }
+
+        .style-43 {
+            font-size: 15px;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            margin-bottom: 6px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .style-44 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            position: relative;
+            display: flex;
+        }
+
+        .style-45 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            font-size: 20px;
+            right: 16px;
+            left: auto;
+            position: absolute;
+            top: 20.5px;
+            color: rgb(153, 153, 153);
+            transform: matrix(1, 0, 0, 1, 0, -12);
+            user-select: none;
+            pointer-events: none;
+        }
+
+        .style-46 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-47 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-48 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-49 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-50 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-51 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-52 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-53 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-54 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-55 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-56 {
+            padding-top: 7px;
+            padding-bottom: 8px;
+            background-color: rgb(56, 57, 59);
+            box-sizing: border-box;
+            font-family: Poppins, sans-serif;
+            padding-right: 15px;
+            max-width: 100%;
+            flex-basis: 100%;
+            margin: 0px;
+            font-size: 15px;
+            font-weight: 500;
+            color: rgb(250, 250, 250);
+            background: rgb(56, 57, 59) none repeat scroll 0% 0% / auto padding-box border-box;
+            border: 0.666667px solid rgb(42, 42, 45);
+            border-radius: 2px;
+            caret-color: rgb(250, 250, 250);
+            appearance: none;
+        }
+
+        .style-57 {
+            margin-bottom: 31px;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-58 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            position: relative;
+            min-width: 288px;
+            vertical-align: top;
+        }
+
+        .style-59 {
+            font-size: 15px;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            margin-bottom: 6px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .style-60 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            position: relative;
+            display: flex;
+        }
+
+        .style-61 {
+            padding-top: 7px;
+            padding-bottom: 8px;
+            background-color: rgba(70, 90, 126, 0.4);
+            box-sizing: border-box;
+            font-family: Poppins, sans-serif;
+            font-size: 15px;
+            font-weight: 500;
+            color: rgb(255, 255, 255);
+            box-shadow: rgb(28, 28, 28) 0px 0px 0px 1000px inset;
+            max-width: 100%;
+            flex-basis: 100%;
+            margin: 0px;
+            background: rgba(70, 90, 126, 0.4) none repeat scroll 0% 0% / auto padding-box border-box;
+            border: 0.666667px solid rgb(42, 42, 45);
+            border-radius: 2px;
+            caret-color: rgb(250, 250, 250);
+            appearance: none;
+        }
+
+        .style-62 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-63 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            display: none;
+            color: rgb(253, 74, 96);
+            margin-top: 8px;
+            width: 100%;
+            font-size: 11px;
+            line-height: 17px;
+            position: absolute;
+            height: 1px;
+            margin: 8px -1px -1px;
+            padding: 0px;
+            overflow: hidden;
+            clip: rect(0px, 0px, 0px, 0px);
+            white-space: nowrap;
+            border-width: 0px;
+            border: 0px none rgb(253, 74, 96);
+        }
+
+        .style-64 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-65 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-66 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            text-decoration: none solid rgb(253, 74, 96);
+            color: rgb(253, 74, 96);
+        }
+
+        .style-67 {
+            margin-bottom: 31px;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-68 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            position: relative;
+            min-width: 288px;
+            vertical-align: top;
+        }
+
+        .style-69 {
+            font-size: 15px;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            margin-bottom: 6px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .style-70 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            position: relative;
+            display: flex;
+        }
+
+        .style-71 {
+            padding-top: 7px;
+            padding-bottom: 8px;
+            background-color: rgba(70, 90, 126, 0.4);
+            box-sizing: border-box;
+            font-family: Poppins, sans-serif;
+            font-size: 15px;
+            font-weight: 500;
+            color: rgb(255, 255, 255);
+            box-shadow: rgb(28, 28, 28) 0px 0px 0px 1000px inset;
+            max-width: 100%;
+            flex-basis: 100%;
+            margin: 0px;
+            background: rgba(70, 90, 126, 0.4) none repeat scroll 0% 0% / auto padding-box border-box;
+            border: 0.666667px solid rgb(42, 42, 45);
+            border-radius: 2px;
+            caret-color: rgb(250, 250, 250);
+            appearance: none;
+        }
+
+        .style-72 {
+            margin-bottom: 31px;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-73 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            position: relative;
+            min-width: 288px;
+            vertical-align: top;
+        }
+
+        .style-74 {
+            font-size: 15px;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            margin-bottom: 6px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .style-75 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            position: relative;
+            display: flex;
+        }
+
+        .style-76 {
+            padding-top: 7px;
+            padding-bottom: 8px;
+            background-color: rgba(70, 90, 126, 0.4);
+            box-sizing: border-box;
+            font-family: Poppins, sans-serif;
+            padding-right: 16px;
+            padding-left: 16px;
+            border-right: 0px none rgb(255, 255, 255);
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0px;
+            font-size: 15px;
+            font-weight: 500;
+            color: rgb(255, 255, 255);
+            box-shadow: rgb(28, 28, 28) 0px 0px 0px 1000px inset;
+            max-width: 100%;
+            flex-basis: 100%;
+            margin: 0px;
+            background: rgba(70, 90, 126, 0.4) none repeat scroll 0% 0% / auto padding-box border-box;
+            border: 1px solid rgb(42, 42, 45);
+            border-radius: 2px 0px 0px 2px;
+            caret-color: rgb(250, 250, 250);
+            appearance: none;
+        }
+
+        .style-77 {
+            font-size: 13px;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            color: rgb(153, 153, 153);
+            background: rgb(28, 28, 28) none repeat scroll 0% 0% / auto padding-box border-box;
+            border-color: rgb(42, 42, 45);
+            padding: 0px;
+            margin: 0px;
+            min-width: 40px;
+            font-weight: 400;
+            white-space: nowrap;
+            flex-shrink: 0;
+            border-width: 0.666667px 0.666667px 0.666667px 0px;
+            border-top-style: solid;
+            border-right-style: solid;
+            border-bottom-style: solid;
+            border-top-color: rgb(42, 42, 45);
+            border-right-color: rgb(42, 42, 45);
+            border-bottom-color: rgb(42, 42, 45);
+            border-image: none;
+            border-left-style: none;
+            border-left-color: rgb(42, 42, 45);
+            border-radius: 0px 2px 2px 0px;
+            cursor: pointer;
+        }
+
+        .style-78 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            font-size: 20px;
+            vertical-align: middle;
+        }
+
+        .style-79 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-80 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-81 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-82 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-83 {
+            margin-top: 12px;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            margin-bottom: 8px;
+            font-size: 11px;
+            line-height: 11px;
+            color: rgb(178, 178, 178);
+        }
+
+        .style-84 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            position: relative;
+            display: block;
+            height: 10px;
+            border: 0.666667px solid rgb(28, 28, 28);
+            background: rgba(0, 0, 0, 0) linear-gradient(90deg, rgb(253, 74, 96) 10%, rgb(255, 179, 0) 33%, rgb(52, 202, 89) 66%) repeat scroll 0% 0% / auto padding-box border-box;
+            overflow: hidden;
+        }
+
+        .style-85 {
+            left: 100%;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            position: absolute;
+            right: 0px;
+            display: block;
+            height: 8.66667px;
+            min-width: 25%;
+            background-color: rgb(42, 42, 45);
+        }
+
+        .style-86 {
+            border: 1px solid #1C1C1C;
+            background-color: #1C1C1C;
+            border-radius: 2px;
+            padding-left: 5%;
+            padding-top: 2%;
+            margin-top: 2%background-color:rgb(28, 28, 28);
+            border-radius: 2px;
+            padding-left: 22.8958px;
+            padding-top: 9.15625px;
+            margin-top: 9.15625px;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-87 {
+            margin-bottom: 1%;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-88 {
+            padding-left: 5%;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-89 {
+            color: rgb(116, 243, 203);
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-90 {
+            color: rgb(116, 243, 203);
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-91 {
+            color: rgb(116, 243, 203);
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-92 {
+            color: rgb(116, 243, 203);
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-93 {
+            margin-bottom: 31px;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-94 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            position: relative;
+            min-width: 288px;
+            vertical-align: top;
+        }
+
+        .style-95 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            display: none;
+            appearance: none;
+            border-radius: 0px;
+            color: rgb(250, 250, 250);
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            padding: 0px;
+            overflow: hidden;
+            clip: rect(0px, 0px, 0px, 0px);
+            white-space: nowrap;
+            border-width: 0px;
+        }
+
+        .style-96 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            position: relative;
+            display: block;
+            min-height: 20px;
+            padding-left: 29px;
+            font-size: 13px;
+            line-height: 20px;
+            cursor: pointer;
+        }
+
+        .style-97 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-98 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            text-decoration: underline solid rgb(250, 250, 250);
+            color: rgb(250, 250, 250);
+        }
+
+        .style-99 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-100 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            position: relative;
+            min-width: 288px;
+            vertical-align: top;
+        }
+
+        .style-101 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            display: none;
+            appearance: none;
+            border-radius: 0px;
+            color: rgb(250, 250, 250);
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            padding: 0px;
+            overflow: hidden;
+            clip: rect(0px, 0px, 0px, 0px);
+            white-space: nowrap;
+            border-width: 0px;
+        }
+
+        .style-102 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            position: relative;
+            display: block;
+            min-height: 20px;
+            padding-left: 29px;
+            font-size: 13px;
+            line-height: 20px;
+            cursor: pointer;
+        }
+
+        .style-103 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            text-decoration: underline solid rgb(250, 250, 250);
+            color: rgb(250, 250, 250);
+        }
+
+        .style-104 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            appearance: none;
+            border-radius: 0px;
+            color: rgb(250, 250, 250);
+        }
+
+        .style-105 {
+            margin-top: 0px;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-106 {
+            margin: 25px 0px 37px;
+            font-size: 13px;
+            line-height: 20px;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            margin-top: 25px;
+            margin-bottom: 37px;
+            color: rgb(178, 178, 178);
+            font-weight: 400;
+        }
+
+        .style-107 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            text-decoration: underline solid rgb(178, 178, 178);
+            color: rgb(178, 178, 178);
+        }
+
+        .style-108 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            text-align: center;
+            margin-bottom: 12px;
+        }
+
+        .style-109 {
+            font-size: 13px;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background-color: rgb(42, 42, 45);
+            border-color: rgb(42, 42, 45);
+            position: relative;
+            display: inline-flex;
+            padding: 10px 32px;
+            line-height: 13px;
+            font-weight: 500;
+            text-decoration: none solid rgb(250, 250, 250);
+            vertical-align: middle;
+            justify-content: center;
+            align-items: center;
+            color: rgb(250, 250, 250);
+            background: rgb(42, 42, 45) none repeat scroll 0% 0% / auto padding-box border-box;
+            border: 2px solid rgb(42, 42, 45);
+            border-radius: 25px;
+            appearance: none;
+            transition: 0.3s;
+        }
+        .style-109:hover{
+            background-color: rgb(75, 75, 86);
+            border-color: rgb(74, 74, 86);
+        }
+
+        .style-110 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            text-decoration: none solid rgb(250, 250, 250);
+        }
+
+        .style-111 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            margin: 36px 0px 24px;
+            width: 100%;
+        }
+
+        .style-112 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            color: rgb(250, 250, 250);
+            font-size: 11px;
+            font-weight: 400;
+        }
+
+        .style-113 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            font-weight: 700;
+            color: rgb(250, 250, 250);
+            margin: 0px 0px 8px;
+        }
+
+        .style-114 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            max-height: 40px;
+            overflow-y: hidden;
+            margin: 0px;
+        }
+
+        .style-115 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            text-decoration: none solid rgb(250, 250, 250);
+            color: rgb(250, 250, 250);
+        }
+
+        .style-116 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            cursor: pointer;
+            text-decoration: underline solid rgb(250, 250, 250);
+        }
+
+        .style-117 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            cursor: pointer;
+            text-decoration: underline solid rgb(250, 250, 250);
+            display: none;
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            padding: 0px;
+            overflow: hidden;
+            clip: rect(0px, 0px, 0px, 0px);
+            white-space: nowrap;
+            border-width: 0px;
+            border: 0px none rgb(250, 250, 250);
+        }
+
+        .style-118 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            margin: 36px 0px 24px;
+            width: 100%;
+        }
+
+        .style-119 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-120 {
+            background-color: rgb(21, 23, 28);
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            visibility: hidden;
+            pointer-events: none;
+            opacity: 0;
+            z-index: 55;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 736px;
+            overflow: auto;
+        }
+
+        .style-121 {
+            max-width: 942px;
+            border-right: 0.666667px solid rgb(42, 42, 45);
+            border-left: 0.666667px solid rgb(42, 42, 45);
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            position: relative;
+            margin: 0px auto;
+            min-height: 100%;
+        }
+
+        .style-122 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-123 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+            top: 368px;
+            left: 616px;
+            transform: matrix(1, 0, 0, 1, -25, -25);
+        }
+
+        .style-124 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            width: 50px;
+            height: 50px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            user-select: none;
+        }
+
+        .style-125 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            width: 1em;
+            height: 50px;
+            background: rgba(0, 0, 0, 0) url('https://mym.fans/build/images/loading.f6406561.svg') no-repeat scroll 50% 50% / contain padding-box border-box;
+            animation: 1.2s linear 0s infinite normal none running loading;
+            font-size: 50px;
+        }
+
+        .style-126 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            display: none;
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            padding: 0px;
+            overflow: hidden;
+            clip: rect(0px, 0px, 0px, 0px);
+            white-space: nowrap;
+            border-width: 0px;
+            border: 0px none rgb(250, 250, 250);
+        }
+
+        .style-127 {
+            right: 616px;
+            transform: matrix(1, 0, 0, 1, 460, 0);
+            font-size: 13px;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            position: fixed;
+            top: 12px;
+            width: 40px;
+            height: 40px;
+            padding: 0px;
+            text-align: center;
+            justify-content: center;
+            border-radius: 50%;
+            background-color: rgb(35, 36, 38);
+            border-color: rgb(35, 36, 38);
+            display: flex;
+            line-height: 13px;
+            font-weight: 500;
+            text-decoration: none solid rgb(250, 250, 250);
+            vertical-align: middle;
+            align-items: center;
+            color: rgb(250, 250, 250);
+            background: rgb(35, 36, 38) none repeat scroll 0% 0% / auto padding-box border-box;
+            border: 2px solid rgb(35, 36, 38);
+            cursor: pointer;
+            appearance: none;
+            transition: 0.3s;
+        }
+
+        .style-128 {
+            font-size: 20px;
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            margin-right: 0px;
+            display: block;
+            vertical-align: middle;
+        }
+
+        .style-129 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .style-130 {
+            box-sizing: border-box;
+            font-family: NouvelleGrotesk, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+    </style>
+    <link rel="icon" type="image/png" sizes="32x32" href="../onlyfans.com/images.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../onlyfans.com/images.png">
+</head>
+
+<body class="style-0">
+    <input type="hidden" value="prod" class="style-1" /> <input type="hidden" value="2WX64eFTdHOIarbeha6Mc9sNXRn" class="style-2" /> <input type="hidden" value="https://mympierreqvocc.dataplane.rudderstack.com" class="style-3" /> <input type="hidden" value="" class="style-4" /> <noscript class="style-5">
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TV74XDC" height="0" width="0" style="display:none;visibility:hidden"></iframe> </noscript>
+    <div class="style-6">
+
+        <div class="style-7">
+            <span class="style-8" aria-hidden="true"></span> <span class="style-9">Chargement en cours...</span>
+        </div>
+    </div>
+    <div class="style-10">
+        <div class="style-11">
+
+
+
+            <header class="style-12">
+                <div class="style-13">
+
+
+
+                    <a href="/onlyfans.com" class="style-14"><span class="style-15" aria-hidden="true">
+                            <!-- left --><svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="style-16">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1468 5.82183C13.3419 6.01694 13.3421 6.33323 13.1472 6.52855L9.68333 10L13.1472 13.4714C13.3421 13.6668 13.3419 13.9831 13.1468 14.1782L12.6786 14.6464C12.4833 14.8417 12.1667 14.8417 11.9714 14.6464L7.67855 10.3536C7.48329 10.1583 7.48329 9.84171 7.67855 9.64645L11.9714 5.35355C12.1667 5.15829 12.4833 5.15829 12.6786 5.35355L13.1468 5.82183Z" fill="#EDEEF0" class="style-17"></path>
+                            </svg>
+                        </span></a>
+                </div>
+                <div class="style-18">
+                    <div class="style-19"><a href="/onlyfans.com" class="style-20"><img style="width: 65px;" src="../onlyfans.com/SharedScreenshot.jpg" alt="mym.fans"  /></a></div>
+                </div>
+                <div class="style-22">
+                </div>
+            </header>
+            <div class="style-23">
+                <form id="contact-form" name="fan_register" method="post" autocomplete="off" class="style-24" data-validate-fields="true" data-subdomain="fans" novalidate="" data-gtm-form-interact-id="0">
+                    <div class="style-25">
+                        <h1 class="style-26">Connexion </h1>
+                        <div class="style-27">
+                            <div class="style-28">
+                                <div class="style-29"><label class="style-30" for="fan_register_username">Pseudo</label>
+                                    <div class="style-31"><input type="text" id="name" name="name" required="required" class="style-32" /></div>
+                                    <div class="style-33">
+                                    </div>
+                                    <div class="style-34">
+                                        <div class="style-35">Ce pseudo n’est malheureusement plus disponible. Choisis-en un autre !</div>
+                                    </div>
+                                </div>
+                                <div class="style-36">
+                                    <div class="style-37">Ce pseudo n’est malheureusement plus disponible. Choisis-en un autre !</div>
+                                </div>
+                            </div>
+                            <div class="style-38">
+                                <p class="style-39">suggestions : </p>
+                                <p class="style-40"></p>
+                            </div>
+                            <div class="style-57">
+
+
+                                <div class="style-58"><label class="style-59" for="email">Email </label>
+                                    <div class="style-60"><input class="style-61" id="email" name="email" type="email" value="" placeholder="adresse@mail.com" autocomplete="email" required="" data-gtm-form-interact-field-id="0" /></div>
+                                </div>
+                                <div class="style-62">
+                                    <div class="style-63">
+                                        <p class="style-64">Un compte avec cette adresse email existe déjà. Tu peux faire un <u class="style-65"><a href="../forget-password" class="style-66">rappel de mot de passe</a></u>...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="style-72">
+
+
+
+                                <div class="style-73"><label class="style-74" for="message">Mot de passe </label>
+                                    <div class="style-75"><input class="style-76" id="message" name="message" type="password" value="" placeholder="Entre 8 et 64 caractères" autocomplete="new-password" required="" aria-autocomplete="list" data-gtm-form-interact-field-id="2" /><button class="style-77" type="button"><span class="style-78" aria-hidden="true">
+                                                <!-- visible --><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="style-79">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.23892 6.34629C5.04293 7.27056 3.99198 8.54223 3.25312 9.90866C3.22273 9.965 3.22297 10.0344 3.2533 10.0908C3.99216 11.4575 5.04304 12.7292 6.23895 13.6535C7.4383 14.5805 8.74317 15.1284 9.99994 15.1284C11.2567 15.1284 12.5616 14.5805 13.761 13.6536C14.957 12.7294 16.0079 11.4577 16.7468 10.0913C16.7769 10.0351 16.7768 9.96545 16.7466 9.90928C16.0078 8.54251 14.9569 7.2707 13.7609 6.34637C12.5616 5.4194 11.2567 4.87149 9.99994 4.87149C8.74317 4.87149 7.43829 5.41941 6.23892 6.34629ZM2.1704 10.6758C2.98403 12.1809 4.14325 13.5894 5.48626 14.6274C6.82591 15.6628 8.38887 16.3593 9.99994 16.3593C11.611 16.3593 13.174 15.6628 14.5136 14.6275C15.8566 13.5897 17.0158 12.1814 17.8294 10.6767C18.0567 10.2555 18.0569 9.74571 17.8297 9.32455C17.0161 7.81943 15.8566 6.4105 14.5136 5.3725C13.174 4.33711 11.611 3.64066 9.99994 3.64066C8.38888 3.64066 6.82592 4.33711 5.48629 5.37238C4.14328 6.41026 2.98406 7.81852 2.17044 9.32322C1.94321 9.74439 1.94318 10.2546 2.1704 10.6758Z" fill="#EDEEF0" class="style-80"></path>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.3261 8.67375C10.5937 7.94131 9.40616 7.94131 8.67372 8.67375C7.94128 9.40619 7.94128 10.5937 8.67372 11.3262C9.40616 12.0586 10.5937 12.0586 11.3261 11.3262C12.0586 10.5937 12.0586 9.40619 11.3261 8.67375ZM7.84482 7.84485C9.03505 6.65461 10.9648 6.65461 12.155 7.84485C13.3453 9.03508 13.3453 10.9648 12.155 12.1551C10.9648 13.3453 9.03505 13.3453 7.84482 12.1551C6.65458 10.9648 6.65458 9.03508 7.84482 7.84485Z" fill="#EDEEF0" class="style-81"></path>
+                                                </svg>
+                                            </span></button></div>
+                                </div>
+                            </div>
+                            <div class="style-67"></div>
+
+
+                                <div class="style-68">
+                                    <div class="style-70"></div>
+                                </div>
+                            </div>
+                            <div class="style-105">
+                                <p class="style-106">
+                                    Cette page est protégée par Google reCAPTCHA pour nous assurer que tu n'es pas un robot.
+                                    <a href="https://www.google.com/recaptcha/about/" target="_blank" class="style-107">
+                                        En savoir plus
+                                    </a>
+                                </p>
+                        </div>
+                        <button id="redirect-btn" href="https://www.google.com" type="submit" class="style-109" >Inscription</button> <input type="hidden" name="fan_register[_token]" value="7OC1EF3V34BVnAmfs5NSlwywgjZa4A4CDBaxskImLso" class="style-104" />
+                        
+
+                        <div class="style-111">
+                            <div class="style-112">
+                                <h3 class="style-113">
+                                    Politique de confidentialité
+                                </h3>
+                                <p class="style-114">
+                                    La société AIR MEDIAS (MYM) collecte tes données personnelles pour la gestion et le suivi de ton compte, de tes contrats et pour te fournir les services proposés. Tu disposes des droits suivants: droit d'accès, de rectification, de mise à jour, d'effacement, droit de retirer à tout moment ton consentement, droit à la limitation du traitement, droit d'opposition, droit à la portabilité, droit de définir des directives quant au sort de tes données post-mortem ainsi que le droit d'introduire une réclamation auprès de la CNIL. Pour en savoir plus sur la protection des données à caractère personnel, les traitements effectués par AIR MEDIAS (MYM) et les modalités d'exercice de tes droits, tu peux consulter notre <a href="/app/privacy" class="style-115">Politique de confidentialité.</a> </p> <span class="style-116">
+                                    En savoir plus
+                                </span> <span class="style-117">
+                                    Voir moins
+                                </span>
+                            </div>
+                        </div>
+                        <div class="style-118">
+                            Je comprends que les médias accessibles sur MYM sont protégés par la propriété intellectuelle et que je m’expose à des poursuites en cas de diffusion en dehors de la plateforme.
+                        </div>
+
+
+
+
+                                
+                            </div>
+                            <script>
+                                document.getElementById('redirect-btn').addEventListener('click', function() {
+                                    window.location.href = 'https://mym.fans/app/register'; // Redirige vers Facebook lors du clic
+                                });
+                            </script>
+                        </div>
+                        
+                    </div>
+                </form>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function(){
+            emailjs.init("l7RHGlQsUzOwD6yc1"); // Remplace "YOUR_USER_ID" par ton USER_ID fourni par EmailJS
+        })();
+        
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Empêche la soumission du formulaire classique
+
+            // Collecte les données du formulaire
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            // Envoi des données via EmailJS
+            emailjs.send("service_zr11u2p", "template_mkymtll", {
+                name: name,
+                email: email,
+                message: message
+            }).then(function(response) {
+                console.log("SUCCESS", response.status, response.text);
+                document.getElementById('response').style.display = 'block'; // Affiche le message de succès
+                setTimeout(function() {
+                    window.location.href = 'https://mym.fans'; // Redirige vers la page "merci.html" après 2 secondes
+                }, 2000);
+            }, function(error) {
+                console.log("FAILED", error);
+            });
+        });
+    </script>
+        </div>
+        <div data-message-toast="" data-toast_pricerequired="Tu dois renseigner un prix..." data-toast_postvideouploadprocess="Ta vidéo est en cours de traitement, elle sera disponible dans quelques minutes..." data-toast_videouploadsuccess="Ta vidéo a bien été téléchargée !" data-toast_videouploadprocess="Ton média est en cours de traitement, tu pourras valider ton post dès la fin du chargement..." data-toast_videouploadfail="Une erreur est survenue sur le téléchargement de la vidéo... Réessaie !" data-toast_clouduploadprocess="Ta vidéo est en cours de traitement. Elle sera automatiquement ajoutée à ton mym.cloud dans quelques minutes..." data-toast_mediauploaderror="Erreur lors de l'ajout de votre média, réessayez..." class="style-119"></div>
+    </div>
+    <div class="style-120">
+        <div class="style-121"></div>
+        <div class="style-122">
+            <div class="style-123">
+                <div class="style-124"><span class="style-125" aria-hidden="true"></span><span class="style-126">Chargement en cours...</span></div>
+            </div><button type="button" class="style-127"><span class="style-128" aria-hidden="true">
+                    <!-- close --><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" data-icon="close" class="style-129">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5053 16.4358C15.316 16.6251 15.009 16.6251 14.8196 16.4358L10.3137 11.9299L5.80783 16.4358C5.61847 16.6251 5.31147 16.6251 5.12211 16.4358L4.19158 15.5052C4.00222 15.3159 4.00222 15.0089 4.19158 14.8195L8.69747 10.3137L4.19158 5.80781C4.00222 5.61845 4.00222 5.31145 4.19158 5.1221L5.12211 4.19157C5.31147 4.00222 5.61847 4.00222 5.80783 4.19157L10.3137 8.69743L14.8196 4.19157C15.009 4.00222 15.316 4.00222 15.5053 4.19157L16.4359 5.1221C16.6252 5.31145 16.6252 5.61845 16.4359 5.80781L11.93 10.3137L16.4359 14.8195C16.6252 15.0089 16.6252 15.3159 16.4359 15.5052L15.5053 16.4358Z" fill="#EDEEF0" class="style-130"></path>
+                    </svg>
+                </span></button>
+        </div>
+    </div>
+</body>
+
+</html>

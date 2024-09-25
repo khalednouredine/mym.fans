@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist 1 Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#gallery">Gallery</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Artists</a>
+                    <div class="dropdown-content">
+                        <a href="artist1.html">Artist 1</a>
+                        <a href="artist2.html">Artist 2</a>
+                        <!-- Add more artist links as needed -->
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Artist 1's Gallery</h1>
+        <p>Enjoy a collection of drawings by Artist 1.</p>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="artist1_drawing1.jpg" alt="Drawing 1" class="gallery-item">
+                <div class="card-content">
+                    <h3>Drawing Title 1</h3>
+                    <p>Short description of the drawing.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="artist1_drawing2.jpg" alt="Drawing 2" class="gallery-item">
+                <div class="card-content">
+                    <h3>Drawing Title 2</h3>
+                    <p>Short description of the drawing.</p>
+                </div>
+            </div>
+            <!-- Add more cards as needed -->
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div>
+                <p>&copy; 2024 Artist 1 Gallery</p>
+            </div>
+            <div class="footer-social-icons">
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox container -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
